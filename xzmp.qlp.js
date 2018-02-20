@@ -48,7 +48,7 @@ function loginp(p){
 function buildMsg(snap){
   var msg = snap.val();
   var $div_msg = $("<div class='row'>");
-  var $p_msg = $("<p style='font: 9px arial, sans-serif'>");
+  var $p_msg = $("<p style='font: 11px arial, sans-serif'>");
   //var $b_msg = $('<button type="button" class="btn btn-primary btn-sm float-left">').html("done").attr("msg", );
   //$b_msg.on("click", function(){
     //snap.getRef().setValue(null);
