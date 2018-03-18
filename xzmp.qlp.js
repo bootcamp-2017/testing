@@ -12,6 +12,8 @@ var p1, p2, person;
 var db = firebase.database();
 var $mc = $("#mainContainer");
 
+db.ref("looked").push({t:moment().format("dddd, MMM Do, h:mm a")});
+
 db.ref("spw").on("child_added", function(snapshot) {
   p1 = snapshot.val().p1;
   p2 = snapshot.val().p2;  
